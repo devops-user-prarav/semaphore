@@ -1,5 +1,5 @@
 ---
-- hosts: user
+- hosts: all
   become: true  
   remote_user: root 
   vars:
